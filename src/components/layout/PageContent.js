@@ -34,7 +34,7 @@ class PageContent extends Component {
             style={{ marginBottom: "1em" }}
           />
           <div className="site-card-wrapper">
-            <Card className="card-container">
+            <div className="card-container">
               {this.props.items.map((product, index) => {
                 if (0 <= index)
                   return (
@@ -49,7 +49,7 @@ class PageContent extends Component {
               {/* <div className="pagination">
                 <Pagination defaultCurrent={1} total={50} />
               </div> */}
-            </Card>
+            </div>
           </div>
         </Content>
       </Layout>

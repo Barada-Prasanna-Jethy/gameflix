@@ -6,14 +6,15 @@ const { Meta } = Card;
 export default class Sidebar extends Component {
   render() {
     return (
-      <Card.Grid style={{ width: "10%" }}>
+      <Card.Grid style={{ width: "10%" }} className={"my-card"}>
         <Card
+          className="item-card"
           bordered={false}
           actions={[
             <a href={`#/info/${this.props.id}`}>Details</a>,
             "Add to Cart"
           ]}
-          style={{ width: 230 }}
+          style={{ width: 220 }}
           cover={<img alt="game img" src={this.props.url} />}
         >
           {" "}
