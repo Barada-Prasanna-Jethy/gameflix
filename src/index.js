@@ -5,7 +5,7 @@ import App from "./Container/App";
 import Details from "./Container/Details";
 import * as serviceWorker from "./serviceWorker";
 
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { HashRouter as BrowserRouter, Route, Switch } from "react-router-dom";
 
 import { Provider } from "react-redux";
 import store from "./Store";
