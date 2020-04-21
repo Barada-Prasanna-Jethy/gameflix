@@ -10,7 +10,7 @@ export default class Sidebar extends Component {
         <Card
           bordered={false}
           actions={[
-            <a href={`/info/${this.props.id}`}>Details</a>,
+            <a href={`#/info/${this.props.id}`}>Details</a>,
             "Add to Cart"
           ]}
           style={{ width: 230 }}
