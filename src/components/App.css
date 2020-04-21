@@ -1,0 +1,163 @@
+body {
+  background-image: url("https://store-images.s-microsoft.com/image/apps.62129.64192079529921030.30d57e74-bcd3-4ec3-b741-3aecddc69db7.dd5ce4c3-09c2-4511-8eb8-4469a84d9188?mode=scale&q=90&h=1080&w=1920&background=%23FFFFFF");
+  background-size: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 100%;
+  overflow: hidden;
+}
+.ant-card-body {
+  padding: 10px;
+}
+.ant-card-cover img {
+  height: 20em;
+}
+.ant-card-grid {
+  width: auto !important;
+  margin: 1.8em;
+  padding: 1px !important;
+  background-color: black !important ;
+  border-radius: 5px !important;
+}
+.ant-layout {
+  background: transparent;
+  height: 100vh;
+
+  /* background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 239, 0, 1) 27%,
+    rgba(0, 0, 0, 1) 100%
+  ) !important; */
+}
+.ant-layout-header {
+  background-color: black !important;
+  height: 50px;
+  position: relative;
+  top: 0;
+  z-index: 100;
+  padding: 0;
+}
+.ant-menu.ant-menu-dark .ant-menu-item-selected {
+  background-color: #fca710;
+}
+.headerMenu {
+  /* background-color: rgba(0, 0, 0, 0.5) !important; */
+  background: transparent;
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  line-height: 50px !important ;
+}
+.card-container {
+  background-color: rgba(0, 0, 0, 0.5) !important ;
+  border-radius: 1em !important;
+  margin-bottom: 5em;
+}
+.ant-card-actions {
+  background-color: #fca710;
+}
+/* .ant-pagination {
+  margin: auto 35%;
+}
+.ant-pagination-item-ellipsis {
+  color: rgb(0, 0, 255) !important;
+} */
+
+.sideMenu,
+.ant-layout-sider {
+  height: 100vh;
+  background: black !important;
+  position: sticky !important ;
+  top: 0 !important;
+}
+.sideMenu span,
+i {
+  color: white;
+}
+.ant-menu-sub {
+  background: black !important;
+}
+.details {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  border-radius: 2em;
+  height: 30em;
+}
+.details,
+h1 {
+  color: white;
+  display: inline-block;
+}
+/* .details::-webkit-scrollbar {
+  display: none;
+} */
+.details-page {
+  width: 90%;
+  margin: 5%;
+}
+.details-page .ant-card-body {
+  height: 100vh !important;
+}
+.info {
+  /* display: inline-block; */
+  margin: 1em;
+  padding-right: 2em;
+  float: left;
+  font-weight: 900;
+  width: 40%;
+  border-style: none solid none none;
+}
+.video {
+  display: inline-block;
+  width: 50% !important;
+  border: none;
+  margin: 3em 0 0 2em;
+}
+.desc {
+  /* margin-top: 2em; */
+  margin-top: 2em;
+  font-weight: normal;
+  height: 14em;
+  overflow-y: scroll;
+}
+/* .desc::-webkit-scrollbar {
+  display: none;
+} */
+
+html {
+  scrollbar-face-color: #646464;
+  scrollbar-base-color: #646464;
+  scrollbar-3dlight-color: #646464;
+  scrollbar-highlight-color: #646464;
+  scrollbar-track-color: #000;
+  scrollbar-arrow-color: #000;
+  scrollbar-shadow-color: #646464;
+  /* scrollbar-dark-shadow-color: #646464; */
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 2px;
+}
+::-webkit-scrollbar-button {
+  display: none;
+}
+::-webkit-scrollbar-track {
+  background-color: #646464;
+}
+::-webkit-scrollbar-track-piece {
+  background-color: #000;
+}
+::-webkit-scrollbar-thumb {
+  height: 50px;
+  background-color: #666;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-corner {
+  background-color: #646464;
+}
+::-webkit-resizer {
+  background-color: #666;
+}

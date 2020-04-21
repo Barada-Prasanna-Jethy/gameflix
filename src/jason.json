@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "Watch dogs",
+    "url": "https://upload.wikimedia.org/wikipedia/en/d/d9/Watch_Dogs_box_art.jpg",
+    "brand": "Ubisoft",
+    "vidurl": "https://www.youtube.com/embed/DqoQG_XYF-8",
+    "details": "Watch Dogs is a 2014 action-adventure game developed by Ubisoft Montreal and published by Ubisoft. Set in a fictionalized version of Chicago, the plot follows hacker Aiden Pearce's search for revenge after the killing of his niece. The game is played from a third-person perspective, and the world is navigated on foot or by vehicle. An online multiplayer mode allows up to eight players to engage in cooperative and competitive gameplay."
+  },
+  {
+    "id": 2,
+    "name": "Call of duty ghosts",
+    "url": "https://upload.wikimedia.org/wikipedia/en/9/9c/Call_of_duty_ghosts_box_art.jpg",
+    "brand": "Activision",
+    "vidurl": "https://www.youtube.com/embed/Zxnx3W-HA18",
+    "details": "In Call of Duty: Ghosts, the story is mostly told through the eyes of one single character, Logan Walker. Players assume the role of Logan for most of the game, with several other playable characters, including an astronaut specialist named Baker, Sergeant Thompson, member of Icarus and Logan's father, Elias Walker, with an all new option to play as Riley, the first non-human playable character in the franchise."
+  },
+  {
+    "id": 3,
+    "name": "Far cry 5",
+    "url": "https://upload.wikimedia.org/wikipedia/en/0/03/Far_Cry_5_boxshot.jpg",
+    "brand": "Ubisoft",
+    "vidurl": "https://www.youtube.com/embed/Kdaoe4hbMso",
+    "details": "Far Cry 5 is a 2018 first-person shooter game developed by Ubisoft Montreal and Ubisoft Toronto and published by Ubisoft. The game takes place in Hope County, a fictional region of Montana, United States. The main story revolves around the Project at Eden's Gate, a doomsday cult that has taken over the county at the command of its charismatic and powerful leader, Joseph Seed. Players control an unnamed junior deputy sheriff who becomes trapped in Hope County, and must work alongside factions of a resistance to liberate the county from the despotic rule of the Seeds and Eden's Gate. Gameplay focuses on combat and exploration; players battle enemy soldiers and dangerous wildlife using a wide array of weapons. The game features many elements found in role-playing games, such as a branching storyline and side quests. The game also features a map editor, a co-operative multiplayer mode, and a competitive multiplayer mode."
+  },
+  {
+    "id": 4,
+    "name": "The Division",
+    "url": "https://upload.wikimedia.org/wikipedia/en/0/03/The_Division_box.jpg",
+    "brand": "Ubisoft",
+    "vidurl": "https://www.youtube.com/embed/yPq_NVi-TC4",
+    "details": "Tom Clancy's The Division is an online-only action role-playing video game developed by Massive Entertainment and published in 2016 by Ubisoft, with assistance from Red Storm Entertainment, Ubisoft Reflections and Ubisoft Annecy, for Microsoft Windows, PlayStation 4 and Xbox One. It is set in a near future New York City in the aftermath of a viral pandemic; the player, a Special Agent of the Strategic Homeland Division, is tasked with helping the group rebuild its operations in Manhattan, investigate the nature of the outbreak, and combat criminal activity in its wake. The Division is structured with elements of role-playing games, as well as cooperative and player versus player online multiplayer. The game is the first game to use Massive and Ubisoft's Snowdrop game engine."
+  },
+  {
+    "id": 5,
+    "name": "Assassin's creed",
+    "url": "https://upload.wikimedia.org/wikipedia/en/5/52/Assassin%27s_Creed.jpg",
+    "brand": "Ubisoft",
+    "vidurl": "https://www.youtube.com/embed/RjQ6ZtyXoA0",
+    "details": "Assassin's Creed is an action-adventure stealth video game franchise created by Patrice Désilets, Jade Raymond and Corey May, developed mainly by Ubisoft Montreal using the game engine Anvil and its more advanced derivatives. It depicts a centuries-old struggle, now and then, between the Assassins, who fight for peace with free will, and the Templars, who desire peace through control. The series features historical fiction, science fiction and characters, intertwined with real-world historical events and figures. For the majority of time players control an Assassin in the past history, while they also play as Desmond Miles or an Assassin Initiate in the present day, who hunt down their Templar targets."
+  },
+  {
+    "id": 6,
+    "name": "Destiny",
+    "url": "https://upload.wikimedia.org/wikipedia/en/0/06/Destiny_XBO.jpg",
+    "brand": "Activision",
+    "vidurl": "https://www.youtube.com/embed/clRpcIHpmoY",
+    "details": "Destiny is an online-only multiplayer first-person shooter video game developed by Bungie and previously published by Activision. Set in a 'mythic science fiction' world, the game features a multiplayer 'shared-world' environment with elements of role-playing games. Activities in Destiny are divided among player versus environment (PvE) and player versus player (PvP) game types. In addition to normal story missions, PvE features three-player 'strikes' and six-player raids. A free roam patrol mode is also available for each planet and features public events. PvP features objective-based modes, as well deathmatch game modes."
+  },
+  {
+    "id": 7,
+    "name": "Prototype",
+    "url": "https://upload.wikimedia.org/wikipedia/en/b/b2/PROTOTYPE.png",
+    "brand": "Activision",
+    "vidurl": "https://www.youtube.com/embed/Nc3XptLacMM",
+    "details": "Prototype is an open world action-adventure video game developed by Radical Entertainment and published by Activision. Set in Manhattan, the game follows a powerful amnesiac shapeshifter named Alex Mercer who must stop an outbreak of Blacklight, a plague that mutates individuals into hideous violent monsters. During his quest, Alex tries to uncover his past while also coming into conflict with both the US military and a black operations force called Blackwatch. Parallel to the game's storyline is the ability to play the game as a sandbox-style video game giving the player freedom to roam Manhattan."
+  },
+  {
+    "id": 8,
+    "name": "Sekiro",
+    "url": "https://upload.wikimedia.org/wikipedia/en/6/6e/Sekiro_art.jpg",
+    "brand": "Activision",
+    "vidurl": "https://www.youtube.com/embed/4OgoTZXPACo",
+    "details": "Sekiro: Shadows Die Twice is an action-adventure video game developed by FromSoftware and published by Activision. The game takes place in the Sengoku period in Japan, and follows a shinobi known as Wolf as he attempts to take revenge on a samurai clan who attacked him and kidnapped his lord."
+  },
+  {
+    "id": 9,
+    "name": "Red dead redumption 2",
+    "url": "https://upload.wikimedia.org/wikipedia/en/4/44/Red_Dead_Redemption_II.jpg",
+    "brand": "Rockstar Games",
+    "vidurl": "https://www.youtube.com/embed/gmA6MrX81z4",
+    "details": "Red Dead Redemption 2 is a 2018 action-adventure game developed and published by Rockstar Games. The story is set in 1899 in a fictionalized representation of the Western, Midwestern and Southern United States and follows outlaw Arthur Morgan, a member of the Van der Linde gang. Arthur must deal with the decline of the Wild West whilst attempting to survive against government forces, rival gangs, and other adversaries. The story also follows fellow gang member John Marston, the protagonist of Red Dead Redemption."
+  },
+  {
+    "id": 10,
+    "name": "Grand Theft Auto 5 (GTA V)",
+    "url": "https://upload.wikimedia.org/wikipedia/en/a/a5/Grand_Theft_Auto_V.png",
+    "brand": "Rockstar Games",
+    "vidurl": "https://www.youtube.com/embed/QkkoHAzjnUs",
+    "details": "Grand Theft Auto V is a 2013 action-adventure game developed by Rockstar North and published by Rockstar Games. Set within the fictional state of San Andreas, based on Southern California, the single-player story follows three criminals and their efforts to commit heists while under pressure from a government agency and powerful crime figures. The open world design lets players freely roam San Andreas' open countryside and the fictional city of Los Santos, based on Los Angeles."
+  },
+  {
+    "id": 11,
+    "name": "Max Pane 3",
+    "url": "https://upload.wikimedia.org/wikipedia/en/2/21/Max_Payne_3_Cover.jpg",
+    "brand": "Rockstar Games",
+    "vidurl": "https://www.youtube.com/embed/4Uc_dbG7MR8",
+    "details": "Max Payne 3 is a third-person shooter video game developed by Rockstar Studios and published by Rockstar Games. Throughout the single-player mode, players control Max Payne, a former detective. Nine years after the events of the second game, Max becomes employed as a private security contractor in Brazil, but becomes entangled in a quest filled with death and betrayal. An online multiplayer mode is included with the game, allowing up to 16 players to engage in both cooperative and competitive gameplay in re-creations of multiple single-player settings."
+  },
+  {
+    "id": 12,
+    "name": "Grand Theft:Vice City",
+    "url": "https://upload.wikimedia.org/wikipedia/en/c/ce/Vice-city-cover.jpg",
+    "brand": "Rockstar Games",
+    "vidurl": "https://www.youtube.com/embed/yZyDT2cOglg",
+    "details": "Grand Theft Auto: Vice City is a 2002 action-adventure game developed by Rockstar North and published by Rockstar Games. It is the first entry in the Grand Theft Auto series since 2001's Grand Theft Auto III. Set in 1986 within the fictional Vice City, based on Miami, the game follows Tommy Vercetti following his release from prison. After he is caught up in an ambushed drug deal, he seeks out those responsible while building a criminal empire and seizing power from other criminal organisations in the city."
+  }
+]
