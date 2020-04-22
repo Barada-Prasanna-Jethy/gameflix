@@ -54,7 +54,9 @@ export default class Sidebar extends Component {
       <Layout>
         <Sider
           width={200}
-          className="site-layout-background"
+          className={`site-layout-background ${
+            this.props.menuState ? "active" : ""
+          } `}
           style={{
             position: "fixed",
             top: "20px",
@@ -62,7 +64,7 @@ export default class Sidebar extends Component {
           }}
         >
           <Menu
-            className="sideMenu"
+            className={`sideMenu ${this.props.menuState ? "active" : ""}`}
             mode="inline"
             defaultSelectedKeys={["1"]}
             defaultOpenKeys={["sub1"]}

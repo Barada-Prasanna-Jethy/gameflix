@@ -12,7 +12,7 @@ class App extends Component {
     const id = parseInt(this.props.match.params.id);
 
     return (
-      <BodyComponent games={games} {...this.props}>
+      <BodyComponent menu={false} games={games} {...this.props}>
         {games.map(product => {
           if (id === product.id)
             return (

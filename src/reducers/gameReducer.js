@@ -1,11 +1,17 @@
-import { GET_GAMES, ON_CHANGE, GET_BRANDS } from "../actions/type";
+import {
+  GET_GAMES,
+  ON_CHANGE,
+  GET_BRANDS,
+  ON_MENU_CLICK
+} from "../actions/type";
 
 const initialState = {
   games: [],
   items: [],
   brands: [],
   checkedbrands: [],
-  searchtext: ""
+  searchtext: "",
+  menuState: false
 };
 
 export default function(state = initialState, action) {
@@ -16,7 +22,6 @@ export default function(state = initialState, action) {
         games: action.payload,
         items: action.payload
       };
-
     case ON_CHANGE:
       return {
         ...state,
@@ -24,14 +29,17 @@ export default function(state = initialState, action) {
         searchtext: action.payload.searchText,
         checkedbrands: action.payload.checkedBrands
       };
-
     case GET_BRANDS:
       return {
         ...state,
         brands: action.payload,
         checkedbrands: action.payload
       };
-
+    case ON_MENU_CLICK:
+      return {
+        ...state,
+        menuState: action.payload
+      };
     default:
       return state;
   }

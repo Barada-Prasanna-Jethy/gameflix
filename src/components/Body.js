@@ -3,6 +3,7 @@ import "antd/dist/antd.css";
 
 import "./App.css";
 import { Layout, Menu } from "antd";
+import { onMenuClick } from "../actions/gameActions";
 
 const { Header } = Layout;
 
@@ -22,6 +23,10 @@ class App extends Component {
       getBrands(brands);
     });
   }
+  menuClick(state) {
+    this.props.actions.onMenuClick(state);
+  }
+
   render() {
     return (
       <Layout className="layout">
@@ -34,6 +39,21 @@ class App extends Component {
             defaultSelectedKeys={["2"]}
             style={{ lineHeight: "64px" }}
           >
+            {/* onMenuClick(!this.props.menuState) */}
+            {this.props.menu ? (
+              <Menu.Item
+                onClick={() => {
+                  this.menuClick(!this.props.menuState);
+                }}
+                key="4"
+              >
+                <div class="menu-button">
+                  <div class="bar1"></div>
+                  <div class="bar2"></div>
+                  <div class="bar3"></div>
+                </div>
+              </Menu.Item>
+            ) : null}
             <Menu.Item key="1">
               <a href="/">Home</a>
             </Menu.Item>

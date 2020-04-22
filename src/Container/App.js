@@ -8,16 +8,29 @@ import { bindActionCreators } from "redux";
 
 class App extends Component {
   render() {
-    const { games, brands, searchtext, checkedbrands, items } = this.props.game;
+    const {
+      games,
+      brands,
+      searchtext,
+      checkedbrands,
+      items,
+      menuState
+    } = this.props.game;
 
     return (
-      <BodyComponent games={games} {...this.props}>
+      <BodyComponent
+        menu={true}
+        menuState={menuState}
+        games={games}
+        {...this.props}
+      >
         <SideBar
           games={games}
           brands={brands}
           searchtext={searchtext}
           checkedbrands={checkedbrands}
           items={items}
+          menuState={menuState}
           {...this.props}
         />
       </BodyComponent>

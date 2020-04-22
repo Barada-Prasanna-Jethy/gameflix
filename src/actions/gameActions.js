@@ -1,4 +1,4 @@
-import { GET_GAMES, ON_CHANGE, GET_BRANDS } from "./type";
+import { GET_GAMES, ON_CHANGE, GET_BRANDS, ON_MENU_CLICK } from "./type";
 import axios from "axios";
 
 export const getGames = () => async dispatch => {
@@ -12,7 +12,12 @@ export const getGames = () => async dispatch => {
   });
   return res;
 };
-
+export const onMenuClick = state => async dispatch => {
+  dispatch({
+    type: ON_MENU_CLICK,
+    payload: state
+  });
+};
 export const onChange = obj => async dispatch => {
   dispatch({
     type: ON_CHANGE,

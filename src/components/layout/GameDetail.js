@@ -3,16 +3,7 @@ import { Card } from "antd";
 export default function GameDetail(props) {
   return (
     <div className="details-page">
-      <Card className="details">
-        {/*<Card className="card-container"> */}
-
-        <iframe
-          className="video"
-          height="310"
-          src={`${props.vidurl}?autoplay=1&controls=0`}
-          allow="autoplay;fullscreen;"
-        ></iframe>
-
+      <div className="details">
         <div class="info">
           <p>Game Name : {props.name}</p>
           <br />
@@ -21,6 +12,12 @@ export default function GameDetail(props) {
           <p>Publisher : {props.brand}</p>
           <p class="desc">{props.detail}</p>
         </div>
+        <iframe
+          className="video"
+          height="310"
+          src={`${props.vidurl}?autoplay=1&controls=0`}
+          allow="autoplay;fullscreen;"
+        ></iframe>
         {/* <div>
           <p class="desc">{props.detail}</p>
         </div> */}
@@ -34,7 +31,7 @@ export default function GameDetail(props) {
         <p>Publisher : {props.brand}</p>
 
         <p>{props.detail}</p> */}
-      </Card>
+      </div>
     </div>
   );
 }

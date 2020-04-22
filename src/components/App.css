@@ -3,8 +3,21 @@ body {
   background-size: 100%;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  height: 100%;
+  height: 100vh;
   overflow: hidden;
+}
+.bar1,
+.bar2,
+.bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #a6a6a6;
+  margin: 6px 0;
+}
+.menu-button {
+  height: 50px;
+  padding-top: 6px;
+  display: none;
 }
 .ant-card-body {
   padding: 10px;
@@ -75,6 +88,7 @@ body {
   background: black !important;
   position: sticky !important ;
   top: 0 !important;
+  transition: width 2s;
 }
 .sideMenu span,
 i {
@@ -88,7 +102,7 @@ i {
   color: white;
   border: none;
   border-radius: 2em;
-  height: 30em;
+  height: 35em;
 }
 .details,
 h1 {
@@ -102,11 +116,35 @@ h1 {
   width: 90%;
   margin: 5%;
 }
-.details-page .ant-card-body {
+/* .details-page .ant-card-body {
   height: 100vh !important;
+} */
+
+.details {
+  display: grid;
+  grid-template-columns: 1.5fr 2fr;
+  grid-template-rows: 1.5fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
 }
+
 .info {
-  /* display: inline-block; */
+  grid-area: 1 / 1 / 2 / 2;
+  margin: auto 0 auto 2em;
+  padding-right: 2em;
+  font-weight: 700;
+  border-style: none solid none none;
+  padding-right: 2em;
+}
+.video {
+  grid-area: 1 / 2 / 2 / 3;
+  width: 100% !important;
+  height: 100%;
+  border: none;
+  border-radius: 0 2em 2em 0;
+}
+/*
+.info {
   margin: 1em;
   padding-right: 2em;
   float: left;
@@ -119,9 +157,8 @@ h1 {
   width: 50% !important;
   border: none;
   margin: 3em 0 0 2em;
-}
+}*/
 .desc {
-  /* margin-top: 2em; */
   margin-top: 2em;
   font-weight: normal;
   height: 14em;
@@ -163,16 +200,60 @@ html {
 /* ::-webkit-resizer {
   background-color: #666;
 } */
-@media only screen and (max-width: 453px) {
+@media only screen and (max-width: 1117px) {
   body {
-    background-size: 300%;
-    background-position-x: -59em;
+    background-size: 200%;
+    background-position-x: 100%;
+  }
+}
+@media only screen and (max-width: 564px) {
+  body {
+    background-size: 400%;
   }
   .sideMenu,
   .ant-layout-sider {
     display: none;
   }
+  .active {
+    display: block !important;
+  }
   .card-container {
     background-color: transparent !important;
+  }
+  .menu-button {
+    display: block;
+  }
+  .details {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 2fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    border-radius: 0;
+    height: 100%;
+  }
+  .details-page {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+  }
+  .video {
+    grid-area: 1 / 1 / 2 / 2;
+    width: 100% !important;
+    height: 100%;
+    border: none;
+    border-radius: 0;
+  }
+  .info {
+    grid-area: 2 / 1 / 3 / 2;
+    margin: 0 2em 0 2em;
+    padding-top: 1em;
+    font-weight: 700;
+    border-style: none;
+    padding-right: 0;
+    height: 23em;
+  }
+  .info br {
+    display: none;
   }
 }
