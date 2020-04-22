@@ -76,7 +76,8 @@ body {
   position: sticky !important ;
   top: 0 !important;
 }
-.sideMenu span i {
+.sideMenu span,
+i {
   color: rgb(255, 255, 255);
 }
 .ant-menu-sub {
@@ -162,3 +163,16 @@ html {
 /* ::-webkit-resizer {
   background-color: #666;
 } */
+@media only screen and (max-width: 453px) {
+  body {
+    background-size: 300%;
+    background-position-x: -59em;
+  }
+  .sideMenu,
+  .ant-layout-sider {
+    display: none;
+  }
+  .card-container {
+    background-color: transparent !important;
+  }
+}
