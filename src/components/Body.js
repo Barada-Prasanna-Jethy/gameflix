@@ -3,7 +3,6 @@ import "antd/dist/antd.css";
 
 import "./App.css";
 import { Layout, Menu } from "antd";
-import { onMenuClick } from "../actions/gameActions";
 
 const { Header } = Layout;
 
@@ -39,7 +38,6 @@ class App extends Component {
             defaultSelectedKeys={["2"]}
             style={{ lineHeight: "64px" }}
           >
-            {/* onMenuClick(!this.props.menuState) */}
             {this.props.menu ? (
               <Menu.Item
                 onClick={() => {

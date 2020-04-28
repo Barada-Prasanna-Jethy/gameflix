@@ -11,8 +11,6 @@ export const onchange = (games, searchText, checkedBrands) => {
   return { newState, searchText, checkedBrands };
 };
 
-// export const onchange = () => debounce(onchangefun, 700);
-
 export const debounce = (func, delay = 300) => {
   let debounceTimer;
   return function() {

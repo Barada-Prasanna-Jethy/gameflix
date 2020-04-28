@@ -45,10 +45,6 @@ class PageContent extends Component {
                     ></Itemcard>
                   );
               })}
-
-              {/* <div className="pagination">
-                <Pagination defaultCurrent={1} total={50} />
-              </div> */}
             </div>
           </div>
         </Content>
