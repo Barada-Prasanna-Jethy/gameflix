@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "antd/dist/antd.css";
 import "../App.css";
 
-import { Layout, Menu, Slider, Radio, Rate } from "antd";
+import { Layout, Menu, Radio, Rate } from "antd";
 import Checkboxes from "./Checkboxes";
 import Content from "./PageContent";
 
@@ -91,13 +91,7 @@ export default class Sidebar extends Component {
                   7000-10000
                 </Radio>
               </Radio.Group>
-              <Slider
-                style={{ marginLeft: "2em", marginRight: "2em" }}
-                max={10000}
-                range
-                step={100}
-                defaultValue={[2000, 5000]}
-              />
+              
             </SubMenu>
             <SubMenu
               key="sub2"
